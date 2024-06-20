@@ -1,4 +1,6 @@
 import { createServer, IncomingMessage, ServerResponse } from "http";
+import * as fs from 'fs';
+import * as path from 'path';
 
 var port = process.env.port || 3005;
 
